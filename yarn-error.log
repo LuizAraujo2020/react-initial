@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @babel/core @babel/preset-env @babel/preset-react @babel/loader -D
+
+PATH: 
+  /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2floader: Not found
+      at params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "react-initial",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/LuizAraujo2020/react-initial.git",
+    "author": "Luiz Araujo <luizcarlos_bsb2006@hotmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
